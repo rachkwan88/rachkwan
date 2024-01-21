@@ -1,43 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Rachel Kwan</title>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>CV - Ocat</title>
+  <meta name="description" content="Rachel Kwan">
+  <meta name="author" content="Rachel Kwan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="navbar bg-base-100">
-    <div class="flex-1">
-      <a class="btn btn-ghost text-xl"><a href="index.html">
-          <h1 class="block text-2xl font-semibold leading-tight tracking-normal text-inherit antialiased">
-            Rachel Kwan
-          </h1>
-        </a>
-    </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
-        <li>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="hero min-h-screen bg-base-200 pl-4 pt-4">
-    <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-4xl font-bold">Hello World</h1>
-        <p class="py-6">Welcome to my site. Feel free to look around.</p>
-        <a href="projects.html" class="btn btn-primary">Projects</a>
+  <header>
+    <section>
+    <h1>Rachel Kwan</h1>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2023-2024</span> <strong>BASIS Independent Silicon Valley Upper School</strong>
+        </div>
+        <div class="descrition">
+          Grade 9
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2012-2023</span> <strong>Challenger School - Sunnyvale</strong>
+        </div>
+        <div>
+          PreSchool - Grade 8
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Activities</h3>
+      <article>
+        <div class='job-title'>
+          <span>12.2023</span> <strong>Code for Cause Hackathon, Milpitas</strong><br>
+          Philanthropic hackathon for high-schoolers
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> HTML</p>
+          <ul class="job-description">
+            <li>Redesign website using HTML</li>
+          </ul>
+        </div>
+      </article>
+      <article>
+        <div class='job-title'>
+          <span>12.2023</span> <strong>Harvard AI Bootcamp, Winter 2023 Session</strong><br>
+          Harvard Computer Society AI Group
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> Python/PyTorch</p>
+          <ul class="job-description">
+            <li>Cover Topics at the cutting edge of AI/ML research</li>
+            <li>Implement AI Chat using OpenAI API</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+  </footer>
 </body>
-
 </html>
