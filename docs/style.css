@@ -32,20 +32,15 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/bg.jpg');
   background-size: cover;
   background-position: fixed;
-  color: white;
+  font-size: 1.5em;
+  color: black;
 }
 
 header section {
   margin: 0 auto;
   max-width: 640px;
-}
-
-header img {
-  border-radius: 50%;
-  max-width: 150px;
 }
 
 h1 {
